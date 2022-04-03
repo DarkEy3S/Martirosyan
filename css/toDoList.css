@@ -1,0 +1,64 @@
+
+
+.in__text {
+  padding: 25px;
+  
+}
+
+.in__input {
+  padding: 12.5px;
+  margin: 0 0 60px;
+  border-radius: 20px;
+  height: 75px;
+}
+
+
+
+.user {
+  display: none;
+}
+
+
+.in__button {
+  padding: 12.5px;
+  background-color: bisque;
+  border-radius: 20px;
+  margin: 0 0 60px;
+  height: 75px;
+}
+
+.ait__out {
+  background-color: cornflowerblue;
+  padding: 50px 0;
+}
+
+.ea__out {
+  background-color: darksalmon;
+  padding: 50px 0;
+}
+
+@media (min-width: 768px) {
+
+
+  .in__input {
+    font-size: calc((10px) + 14 * (100vw / 1440));
+  }
+
+  .in__button {
+    font-size: calc((10px) + 21 * (100vw / 1440));
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    font-size: calc((20px) + 14 * ((100vw - 320px) / 1440));
+  }
+
+  .in__input {
+    font-size: calc((10px) + 14 * ((100vw - 320px) / 1440));
+  }
+
+  .in__button {
+    font-size: calc((10px) + 21 * ((100vw - 320px) / 1440));
+  }
+}
